@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "finance-programming"
+version = "0.1.0"
+description = ""
+authors = ["LianYun-Li <lee64690502@gmail.com>"]
+readme = "README.md"
+packages = [{include = "finance_programming"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openpyxl = "^3.1.2"
+pandas = "^2.0.1"
+pandas-datareader = "^0.10.0"
+ffn = "^0.3.6"
+backtesting = "^0.3.3"
+ta = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
