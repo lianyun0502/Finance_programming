@@ -1,2 +1,2 @@
-# Finance_programming
+# Finance programming
 Course of finance programming in python.
